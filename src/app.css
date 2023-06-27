@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.tooltip {
+    @apply invisible absolute bg-yellow-100 mr-1 p-2;
+}
+  
+.has-tooltip:hover .tooltip {
+    @apply visible z-50
+}
