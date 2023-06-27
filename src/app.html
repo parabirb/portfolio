@@ -6,15 +6,39 @@
     please do not use this work as your own.
     you can look at and tinker with the code as inspiration.
 -->
+
 <head>
-    <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>birb</title>
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&display=swap" rel="stylesheet">
     %sveltekit.head%
+    <title>birb's portfolio</title>
+    <meta name="title" content="birb's portfolio" />
+    <meta name="description"
+        content="here's my portfolio! you can learn more about me, my writing, and my actual work experience from here." />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://birb.works" />
+    <meta property="og:title" content="birb's portfolio" />
+    <meta property="og:description"
+        content="here's my portfolio! you can learn more about me, my writing, and my actual work experience from here." />
+    <meta property="og:image" content="https://birb.works/proot_nya.png" />
+
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://birb.works" />
+    <meta property="twitter:title" content="birb's portfolio" />
+    <meta property="twitter:description"
+        content="here's my portfolio! you can learn more about me, my writing, and my actual work experience from here." />
+    <meta property="twitter:image" content="https://birb.works/proot_nya.png" />
 </head>
+
 <body data-sveltekit-preload-data="hover">
-<div style="display: contents">%sveltekit.body%</div>
+    <script>
+        document.addEventListener("contextmenu", e => e.preventDefault());
+    </script>
+    <div style="display: contents">%sveltekit.body%</div>
 </body>
+
 </html>

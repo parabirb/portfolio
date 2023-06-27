@@ -1,6 +1,14 @@
 <script>
     // deps
     import { clickOutside } from "./clickOutside";
+    import Window from "./window.svelte";
+    import About from "./about.svelte";
+    import Experience from "./experience.svelte";
+    import Writing from "./writing.svelte";
+    import Personal from "./personal.svelte";
+
+    // apps
+    let apps = { About, Experience, Writing, Personal };
 
     // date
     let date = createDate();
@@ -17,6 +25,7 @@
     function getLocaleTime(style = "short") {
         return date.toLocaleTimeString("en-US", {
             timeStyle: style,
+            timeZone: "America/Chicago"
         });
     }
 
@@ -29,6 +38,74 @@
     $: time = date.getLocaleTime();
     $: longTime = date.getLocaleTime("medium");
     setInterval(() => (date = createDate()), 1000);
+
+    // state
+    let state = [];
+
+    // icons
+    let icons = [
+        {
+            name: "About",
+            icon: "info"
+        },
+        {
+            name: "Experience",
+            icon: "description"
+        },
+        {
+            name: "Writing",
+            icon: "ink_pen"
+        },
+        {
+            name: "Personal",
+            icon: "person"
+        }
+    ]
+
+    // get state function
+    function getState() {
+        return state;
+    }
+
+    // update state function
+    function updateState(newState) {
+        console.log(state);
+        console.log(newState);
+        state = newState;
+    }
+
+    // get icon function
+    function getIcon(app) {
+        for (let icon of icons) {
+            if (icon.name === app) return icon.icon;
+        }
+    }
+
+    // focus function
+    function focus(app) {
+        for (let window of state) {
+            if (window.title === app) {
+                setTimeout(window.focus, 30);
+                for (let secondWindow of state) {
+                    if (secondWindow.title !== app) secondWindow.opUnfocus();
+                }
+                return true;
+            }
+        }
+        return false;
+    }
+
+    // open function
+    function open(app) {
+        if(focus(app)) return;
+        for (let window of state) {
+            window.opUnfocus();
+        }
+        const component = new apps[app]({
+            target: document.body,
+            props: { state, getState, updateState, windowIcon: getIcon(app) }
+        });
+    }
 </script>
 
 <!-- for that sweet click sound effect -->
@@ -39,29 +116,19 @@
     class="absolute lg:visible md:visible invisible top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 font-mono text-6xl text-slate-400 font-bold select-none"
 >
     birb
-    <noscript>(enable js)</noscript>
+    <noscript class="text-3xl">(enable js)</noscript>
 </div>
 
 <!-- icons -->
 <div class="absolute lg:visible md:visible invisible font-mono select-none">
     <!-- icons -->
     <div class="flex flex-col p-5 gap-5 w-40">
-        <div class="text-center">
-            <span class="material-symbols-outlined text-6xl">info</span>
-            <p class="leading-none">About</p>
-        </div>
-        <div class="text-center">
-            <span class="material-symbols-outlined text-6xl">description</span>
-            <p class="leading-none">Experience</p>
-        </div>
-        <div class="text-center">
-            <span class="material-symbols-outlined text-6xl">ink_pen</span>
-            <p class="leading-none">Writing</p>
-        </div>
-        <div class="text-center">
-            <span class="material-symbols-outlined text-6xl">person</span>
-            <p class="leading-none">Personal</p>
-        </div>
+        {#each icons as icon}
+            <button class="text-center" on:click={() => open(icon.name)}>
+                <span class="material-symbols-outlined text-6xl">{icon.icon}</span>
+                <p class="leading-none">{icon.name}</p>
+            </button>
+        {/each}
     </div>
 </div>
 
@@ -80,7 +147,7 @@
                 class="ml-1 mb-1 p-1 w-48 bg-purple-800 flex flex-col gap-0.5 z-50"
             >
                 <a
-                    href="mailto:birb@pry.dog"
+                    href="mailto:me@birb.works"
                     class="bg-pink-200 text-center py-2 border-t-2 border-t-white border-l-2 border-l-white hover:bg-purple-700 hover:text-white"
                     >Email</a
                 >
@@ -99,14 +166,23 @@
     </div>
     <!-- taskbar -->
     <div
-        class="bg-pink-200 w-screen h-10 flex items-center border-t-2 border-t-white z-50 px-2 py-5 gap-2"
+        class="bg-pink-200 w-screen h-10 flex items-center border-t-2 border-t-white z-50 px-2 py-5 gap-3"
     >
         <button
             on:click={toggleStart}
             class="border-t-2 border-t-white border-l-2 border-l-white border-b-2 border-b-purple-800 border-r-2 border-r-purple-800 py-0.5 px-2 active:border-t-purple-800 active:border-l-purple-800 active:border-b-white active:border-r-white"
             >START</button
         >
-        <div />
+        <div class="flex gap-1">
+            {#each state as window}
+                <button
+                    on:click={() => focus(window.title)}
+                    class="border-t-2 border-t-purple-800 border-l-2 border-l-purple-800 border-b-2 border-b-white border-r-2 border-r-white py-0.5 px-2 hover:bg-pink-300 active:bg-pink-400 transition-colors"
+                >
+                    {window.title}
+                </button>
+            {/each}
+        </div>
         <div class="flex-grow" />
         <div
             class="border-t-2 border-t-purple-800 border-l-2 border-l-purple-800 border-b-2 border-b-white border-r-2 border-r-white py-0.5 px-2 has-tooltip"
@@ -127,5 +203,5 @@
         mobile version hasn't been implemented yet. thank you.
     </p>
     <p>&nbsp;</p>
-    <a href="mailto:birb@pry.dog" class="text-blue-800">email me</a>
+    <a href="mailto:me@birb.works" class="text-blue-800">email me</a>
 </main>

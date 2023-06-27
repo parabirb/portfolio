@@ -2,6 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+    overflow: hidden;
+}
+
+button, a {
+    @apply cursor-default;
+}
+
+img {
+    image-rendering: pixelated;
+}
+
 .tooltip {
     @apply invisible absolute bg-yellow-100 mr-1 p-2;
 }

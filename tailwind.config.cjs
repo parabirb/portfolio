@@ -6,5 +6,7 @@ module.exports = {
             mono: ["Fira Mono", "monospace"]
         }
     },
-    plugins: []
+    plugins: [
+        require("tailwind-scrollbar")
+    ]
 };
