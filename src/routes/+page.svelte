@@ -43,7 +43,7 @@
 </div>
 
 <!-- icons -->
-<div class="absolute lg:visible md:visible invisible font-mono">
+<div class="absolute lg:visible md:visible invisible font-mono select-none">
     <!-- icons -->
     <div class="flex flex-col p-5 gap-5 w-40">
         <div class="text-center">
