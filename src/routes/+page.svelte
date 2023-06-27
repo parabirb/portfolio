@@ -1,7 +1,6 @@
 <script>
     // deps
     import { clickOutside } from "./clickOutside";
-    import Window from "./window.svelte";
     import About from "./about.svelte";
     import Experience from "./experience.svelte";
     import Writing from "./writing.svelte";
