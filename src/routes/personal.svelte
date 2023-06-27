@@ -18,7 +18,7 @@
         <h1 class="self-center text-4xl font-bold leading-tight">
             personal details
         </h1>
-        <p class="self-center text-base leading-snug hyphens-auto">
+        <p class="text-base leading-snug hyphens-auto">
             so... a little about me, i suppose? i was born in dallas, tx in
             october 2006; i've lived in the dfw metroplex for my whole life. i'm
             currently 16. i'm a certified homosexual. i've also got a few

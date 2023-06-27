@@ -22,7 +22,7 @@
             <h2 class="text-3xl underline decoration-wavy decoration-1 underline-offset-2">education</h2>
             <div>
                 <h3 class="text-2xl leading-snug">ut dallas (2023-present)</h3>
-                <p class="self-center text-base leading-snug hyphens-auto">
+                <p class="text-base leading-snug hyphens-auto">
                     i'm an incoming freshman at the university of texas at
                     dallas in the school of arts, humanities, and technology.
                     i'm majoring in literature and minoring in political
@@ -31,7 +31,7 @@
             </div>
             <div>
                 <h3 class="text-2xl leading-snug">newman smith (2020-2023)</h3>
-                <p class="self-center text-base leading-snug hyphens-auto">
+                <p class="text-base leading-snug hyphens-auto">
                     i went to newman smith high school and graduated in three
                     years. i received a diploma with distinction and
                     endorsements in stem and multidisciplinary studies.
@@ -44,13 +44,13 @@
             </h2>
             <div>
                 <h3 class="text-2xl leading-snug">coinpilot (2021-2023)</h3>
-                <p class="self-center text-base leading-snug hyphens-auto">
+                <p class="text-base leading-snug hyphens-auto">
                     i was a software development intern at coinpilot. i worked on the frontend codebase and the discord bot among other things (like keeping the VPSes in good condition). i eventually ended up leaving on good terms to pursue opportunities elsewhere and focus on my education.
                 </p>
             </div>
             <div>
                 <h3 class="text-2xl leading-snug">wrongthink (2021-2021)</h3>
-                <p class="self-center text-base leading-snug hyphens-auto">
+                <p class="text-base leading-snug hyphens-auto">
                     i implemented, created, and deployed a peer-to-peer encrypted messenger built for the browser, based on webrtc and signal's double ratchet (using a library written by me). it was consistently used by many people and maintained security while remaining simple to use.
                 </p>
             </div>
@@ -61,13 +61,13 @@
             </h2>
             <div>
                 <h3 class="text-2xl leading-snug">national merit semifinalist</h3>
-                <p class="self-center text-base leading-snug hyphens-auto">
+                <p class="text-base leading-snug hyphens-auto">
                     i was a national merit semifinalist; i received a score of 1490 on the psat and was recognized as being in the 99th percentile.
                 </p>
             </div>
             <div>
                 <h3 class="text-2xl leading-snug">esb certification</h3>
-                <p class="self-center text-base leading-snug hyphens-auto">
+                <p class="text-base leading-snug hyphens-auto">
                     i received the entrepreneurship and small business certification from certiport after taking the course and exam.
                 </p>
             </div>

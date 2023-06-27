@@ -16,7 +16,7 @@
             class="w-48 self-center border-2 border-blue-800"
         />
         <h1 class="self-center text-6xl leading-snug font-bold">birb</h1>
-        <p class="self-center text-base leading-snug hyphens-auto">
+        <p class="text-base leading-snug hyphens-auto">
             heya! i'm birb. i'm currently a literature student and pre-law at
             the university of texas at dallas. i used to be a web developer and
             programmer; i have 5 years of experience. i designed this website
