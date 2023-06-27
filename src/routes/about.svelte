@@ -24,17 +24,17 @@
             website were inspired by the video game <a
                 href="https://store.steampowered.com/app/1451940/NEEDY_STREAMER_OVERLOAD/"
                 target="_blank"
-                class="text-violet-950 underline italic decoration-dashed"
+                class="text-violet-950 underline italic decoration-dashed decoration-1 underline-offset-2"
                 >needy streamer overload</a
             >
-            <span class="line-through decoration-wavy"
+            <span class="line-through decoration-wavy decoration-1"
                 >(also, i might've used their click sfx)</span
             >. the font used is fira mono and the icons are material icons. all
             art on this website was drawn by
             <a
                 href="https://ko-fi.com/zameerdraws"
                 target="_blank"
-                class="text-violet-950 underline decoration-dashed"
+                class="text-violet-950 underline decoration-dashed decoration-1 underline-offset-2"
                 >zameer</a
             >.
         </p>
@@ -42,25 +42,25 @@
             <a
                 href="https://furry.engineer/@parabirb"
                 target="_blank"
-                class="text-violet-950 underline decoration-dashed">mastodon</a
+                class="text-violet-950 underline decoration-dashed decoration-1 underline-offset-2">mastodon</a
             >
             &bull;
             <a
                 href="https://github.com/parabirb"
                 target="_blank"
-                class="text-violet-950 underline decoration-dashed">github</a
+                class="text-violet-950 underline decoration-dashed decoration-1 underline-offset-2">github</a
             >
             &bull;
             <a
                 href="https://parabirb.medium.com"
                 target="_blank"
-                class="text-violet-950 underline decoration-dashed">medium</a
+                class="text-violet-950 underline decoration-dashed decoration-1 underline-offset-2">medium</a
             >
             &bull;
             <a
                 href="mailto:me@birb.works"
                 target="_blank"
-                class="text-violet-950 underline decoration-dashed">email</a
+                class="text-violet-950 underline decoration-dashed decoration-1 underline-offset-2">email</a
             >
         </p>
     </div>

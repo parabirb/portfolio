@@ -19,7 +19,7 @@
         />
         <h1 class="self-center text-5xl font-bold leading-loose">experience</h1>
         <div class="flex flex-col">
-            <h2 class="text-3xl underline decoration-wavy">education</h2>
+            <h2 class="text-3xl underline decoration-wavy decoration-1 underline-offset-2">education</h2>
             <div>
                 <h3 class="text-2xl leading-snug">ut dallas (2023-present)</h3>
                 <p class="self-center text-base leading-snug hyphens-auto">
@@ -39,7 +39,7 @@
             </div>
         </div>
         <div class="flex flex-col">
-            <h2 class="text-3xl underline decoration-wavy">
+            <h2 class="text-3xl underline decoration-wavy decoration-1 underline-offset-2">
                 professional work
             </h2>
             <div>
@@ -56,7 +56,7 @@
             </div>
         </div>
         <div class="flex flex-col">
-            <h2 class="text-3xl underline decoration-wavy">
+            <h2 class="text-3xl underline decoration-wavy decoration-1 underline-offset-2">
                 certificates and awards
             </h2>
             <div>
