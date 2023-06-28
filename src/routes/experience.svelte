@@ -14,6 +14,7 @@
         class="p-4 min-h-full flex-col flex text-blue-800 justify-center gap-2"
     >
         <img
+            draggable="false"
             src="proot_fish.png"
             class="w-48 self-center border-2 border-blue-800"
         />

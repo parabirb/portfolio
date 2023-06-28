@@ -12,6 +12,7 @@
 <Window title="Writing" bind:state getState={getState} windowIcon={windowIcon}>
     <div class="p-4 min-h-full flex-col flex text-blue-800 justify-center">
         <img
+            draggable="false"
             src="proot_gay.png"
             class="w-48 self-center border-2 border-blue-800"
         />
