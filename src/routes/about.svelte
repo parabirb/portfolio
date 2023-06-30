@@ -31,37 +31,47 @@
             <span class="line-through decoration-wavy decoration-1"
                 >(also, i might've used their click sfx)</span
             >. the font used is fira mono and the icons are material icons. all
-            art on this website was drawn by
+            art on the page was drawn by
             <a
                 href="https://ko-fi.com/zameerdraws"
                 target="_blank"
                 class="text-violet-950 underline decoration-dashed decoration-1 underline-offset-2"
                 >zameer</a
+            >. the favicon was drawn by
+            <a
+                href="https://abe-estos.neocities.org/"
+                target="_blank"
+                class="text-violet-950 underline decoration-dashed decoration-1 underline-offset-2"
+                >abe estos</a
             >.
         </p>
         <p class="self-center text-base leading-loose hyphens-auto">
             <a
-                href="https://furry.engineer/@parabirb"
-                target="_blank"
-                class="text-violet-950 underline decoration-dashed decoration-1 underline-offset-2">mastodon</a
-            >
-            &bull;
-            <a
                 href="https://github.com/parabirb"
                 target="_blank"
-                class="text-violet-950 underline decoration-dashed decoration-1 underline-offset-2">github</a
+                class="text-violet-950 underline decoration-dashed decoration-1 underline-offset-2"
+                >github</a
             >
             &bull;
             <a
                 href="https://parabirb.medium.com"
                 target="_blank"
-                class="text-violet-950 underline decoration-dashed decoration-1 underline-offset-2">medium</a
+                class="text-violet-950 underline decoration-dashed decoration-1 underline-offset-2"
+                >medium</a
             >
             &bull;
             <a
                 href="mailto:me@birb.works"
                 target="_blank"
-                class="text-violet-950 underline decoration-dashed decoration-1 underline-offset-2">email</a
+                class="text-violet-950 underline decoration-dashed decoration-1 underline-offset-2"
+                >email</a
+            >
+            &bull;
+            <a
+                href="https://www.last.fm/user/parabirb"
+                target="_blank"
+                class="text-violet-950 underline decoration-dashed decoration-1 underline-offset-2"
+                >last.fm</a
             >
         </p>
     </div>
