@@ -24,7 +24,7 @@
             <div>
                 <h3 class="text-2xl leading-snug">ut dallas (2023-present)</h3>
                 <p class="text-base leading-snug hyphens-auto">
-                    i'm an incoming freshman at the university of texas at
+                    i'm a freshman at the university of texas at
                     dallas in the school of arts, humanities, and technology.
                     i'm majoring in literature and minoring in political
                     science; i plan to go to law school after undergrad.
