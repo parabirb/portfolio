@@ -11,10 +11,13 @@
 
 <Window title="Writing" bind:state getState={getState} windowIcon={windowIcon}>
     <div class="p-4 min-h-full flex-col flex text-blue-800 justify-center">
-        <img
+        <video
             draggable="false"
-            src="proot_gay.png"
-            class="w-48 self-center border-2 border-blue-800"
+            src="project.mp4"
+            class="w-half self-center border-2 border-blue-800"
+            autoplay
+            loop
+            muted
         />
         <h1 class="self-center text-4xl font-bold leading-snug">
             writing
