@@ -6,18 +6,25 @@ body {
     overflow: hidden;
 }
 
-button, a {
+button,
+a {
     @apply cursor-default;
 }
 
 img {
-    image-rendering: pixelated;
+    pointer-events: none;
 }
 
 .tooltip {
     @apply invisible absolute bg-yellow-100 mr-1 p-2;
 }
-  
+
 .has-tooltip:hover .tooltip {
     @apply visible z-50
+}
+
+.bark {
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%)
 }
