@@ -3,8 +3,7 @@ module.exports = {
     theme: {
         extend: {},
         fontFamily: {
-            mono: ["DotGothic16", "Fira Mono", "monospace"],
-            sans: ["Zen Kaku Gothic Antique", "sans-serif"]
+            mono: ["Fira Mono", "monospace"]
         }
     },
     plugins: [
