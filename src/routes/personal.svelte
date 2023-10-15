@@ -22,7 +22,7 @@
         <p class="text-base leading-snug hyphens-auto">
             so... a little about me, i suppose? i was born in dallas, tx in
             october 2006; i've lived in the dfw metroplex for my whole life. i'm
-            currently 16. i'm a certified homosexual. i've also got a few
+            currently 17. i'm a certified homosexual. i've also got a few
             hobbies; i'm a licensed amateur radio operator (general class), a
             furry, and a hobbyist programmer from time to time. plus, i enjoy
             reading and writing about the law. i'm a literature major for a few
