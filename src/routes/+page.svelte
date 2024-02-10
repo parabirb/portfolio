@@ -3,11 +3,11 @@
     import { clickOutside } from "./clickOutside";
     import About from "./about.svelte";
     import Experience from "./experience.svelte";
-    import Writing from "./writing.svelte";
+    import Blog from "./blog.svelte";
     import Personal from "./personal.svelte";
 
     // apps
-    let apps = { About, Experience, Writing, Personal };
+    let apps = { About, Experience, Blog, Personal };
 
     // date
     let date = createDate();
@@ -52,7 +52,7 @@
             icon: "description"
         },
         {
-            name: "Writing",
+            name: "Blog",
             icon: "ink_pen"
         },
         {
@@ -68,8 +68,6 @@
 
     // update state function
     function updateState(newState) {
-        console.log(state);
-        console.log(newState);
         state = newState;
     }
 
