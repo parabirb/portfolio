@@ -44,6 +44,12 @@
                 professional work
             </h2>
             <div>
+                <h3 class="text-2xl leading-snug">ame (2024-present)</h3>
+                <p class="text-base leading-snug hyphens-auto">
+                    i am currently the sole web developer for Expl0dingCat's AI assistant project, ame. there, i rapidly write, test, revise, and deploy sleek, functional front-end web UIs that achieve the triple goals of usability, fashion, and simplicity.
+                </p>
+            </div>
+            <div>
                 <h3 class="text-2xl leading-snug">coinpilot (2021-2023)</h3>
                 <p class="text-base leading-snug hyphens-auto">
                     i was a software development intern at coinpilot. i worked on the frontend codebase and the discord bot among other things (like keeping the VPSes in good condition). i eventually ended up leaving on good terms to pursue opportunities elsewhere and focus on my education.
