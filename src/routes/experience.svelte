@@ -67,15 +67,15 @@
                 certificates and awards
             </h2>
             <div>
+            	<h3 class="text-2xl leading-snug">dean's list</h3>
+            	<p class="text-base leading-snug hyphens-auto">
+            		i was on the fall 2023 dean's list for the school of arts, humanities, and technology.
+            	</p>
+            </div>
+            <div>
                 <h3 class="text-2xl leading-snug">national merit semifinalist</h3>
                 <p class="text-base leading-snug hyphens-auto">
                     i was a national merit semifinalist; i received a score of 1490 on the psat and was recognized as being in the 99th percentile.
-                </p>
-            </div>
-            <div>
-                <h3 class="text-2xl leading-snug">esb certification</h3>
-                <p class="text-base leading-snug hyphens-auto">
-                    i received the entrepreneurship and small business certification from certiport after taking the course and exam.
                 </p>
             </div>
         </div>
