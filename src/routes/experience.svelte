@@ -24,10 +24,10 @@
             <div>
                 <h3 class="text-2xl leading-snug">ut dallas (2023-present)</h3>
                 <p class="text-base leading-snug hyphens-auto">
-                    i'm a freshman at the university of texas at
+                    i'm a junior at the university of texas at
                     dallas in the school of arts, humanities, and technology.
-                    i'm majoring in literature and minoring in political
-                    science; i plan to go to law school after undergrad.
+                    i'm majoring in literature and minoring in software
+                    engineering; i plan to go to law school after undergrad.
                 </p>
             </div>
             <div>
