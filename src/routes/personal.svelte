@@ -22,8 +22,8 @@
         <p class="text-base leading-snug hyphens-auto">
             so... a little about me, i suppose? i was born in dallas, tx in
             october 2006; i've lived in the dfw metroplex for my whole life. i'm
-            currently 17. i've also got a few hobbies; i'm a licensed amateur
-            radio operator (general class), a furry, and a hobbyist programmer
+            currently 18. i've also got a few hobbies; i'm a licensed amateur
+            radio operator (extra class), a furry, and a hobbyist programmer
             from time to time. plus, i enjoy reading and writing about the law.
             i'm a literature major for a few reasons, one of them being that i
             want to produce art before i head off to law school. literature
